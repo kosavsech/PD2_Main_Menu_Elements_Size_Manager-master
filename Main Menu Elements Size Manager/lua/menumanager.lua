@@ -52,7 +52,7 @@ end
 	end
 	loc:load_localization_file(Main_Menu_Elements_Size_Manager.path .. "loc/english.json", false)
 end) ]]
-Hooks:Add("MenuManagerBuildCustomMenus", "CreateEmptyLobby_MenuManagerBuildCustomMenus", function(menu_manager, nodes)
+Hooks:Add("MenuManagerBuildCustomMenus", "Main_Menu_Elements_Size_Manager_MenuManagerBuildCustomMenus", function(menu_manager, nodes)
 	local mainmenu = nodes.main
 	if mainmenu == nil then
 		return
