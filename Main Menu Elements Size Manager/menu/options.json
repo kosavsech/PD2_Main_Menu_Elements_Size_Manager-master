@@ -1,0 +1,101 @@
+// TODO settings of size changing of every element in main menu
+{
+	"menu_id" : "SR_Reminder_options",
+	"parent_menu_id" : "blt_options",
+	"title" : "SR_Reminder_title",
+	"description" : "SR_Reminder_desc",
+	"focus_changed_callback": "SR_ReminderChangedFocus",
+	"back_callback" : "callback_SR_Reminder_close",
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "SR_Reminder_toggle_enabled",
+			"title" : "SR_Reminder_toggle_enabled_title",
+			"description" : "SR_Reminder_toggle_enabled_desc",
+			"callback" : "callback_SR_Reminder_toggle_enabled",
+			"value" : "enabled"
+		},
+		{
+			"type" : "divider",
+			"size" : 24
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "SR_Reminder_remind_chatmode",
+			"title" : "SR_Reminder_remind_chatmode_title",
+			"description" : "SR_Reminder_chatmode_desc",
+			"callback" : "callback_SR_Reminder_remind_chatmode",
+			"items" : [
+				"SR_Reminder_chatmode_a",
+				"SR_Reminder_chatmode_b",
+				"SR_Reminder_chatmode_c"
+			],
+			"value" : "reminder_chatmode"
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+        {
+            "type": "slider",
+            "id": "pre_remind",
+            "title": "pre_remind_title",
+            "description": "pre_remind_desc",
+            "callback": "callback_pre_remind",
+            "value": "pre_remind",
+            "min": 0,
+            "max": 299,
+            "step": 1
+        },
+        {
+            "type": "slider",
+            "id": "remind",
+            "title": "remind_title",
+            "description": "remind_desc",
+            "callback": "callback_remind",
+            "value": "remind",
+            "min": 0,
+            "max": 299,
+            "step": 1
+        },
+        {
+            "type": "slider",
+            "id": "fin_remind",
+            "title": "fin_remind_title",
+            "description": "fin_remind_desc",
+            "callback": "callback_fin_remind",
+            "value": "fin_remind",
+            "min": 0,
+            "max": 299,
+            "step": 1
+        },
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+            "type": "input",
+            "id": "set_reminder_input",
+            "title": "set_reminder_title",
+            "description": "set_reminder_desc",
+            "callback": "callback_set_reminder_input",
+            "value": "set_reminder"
+		},
+		{
+            "type": "input",
+            "id": "ending_input",
+            "title": "ending_title",
+            "description": "ending_desc",
+            "callback": "callback_ending_input",
+            "value": "ending"
+		},
+		{
+            "type": "input",
+            "id": "SRprefix_input",
+            "title": "SRprefix_title",
+            "description": "SRprefix_desc",
+            "callback": "callback_SRprefix_input",
+            "value": "SRprefix"
+		}
+	]
+}
