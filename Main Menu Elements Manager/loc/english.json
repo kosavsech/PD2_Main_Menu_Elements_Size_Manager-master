@@ -1,0 +1,62 @@
+{
+	"Main_Menu_Elements_Manager_mod_main_menu_title" : "Main Menu Elements Manager",
+	"Main_Menu_Elements_Manager_mod_main_menu_desc" : "",
+	
+	"crimenet_visibility_toggle_title" : "Crimenet",
+	"crimenet_visibility_toggle_desc" : "",
+
+	"crimenet_offline_visibility_toggle_title" : "Crimenet Offline",
+	"crimenet_offline_visibility_toggle_desc" : "",
+
+	"fast_net_core_visibility_toggle_title" : "FAST.NET",
+	"fast_net_core_visibility_toggle_desc" : "",
+
+	"story_missions_visibility_toggle_title" : "Career/Missions",
+	"story_missions_visibility_toggle_desc" : "",
+
+	"inventory_visibility_toggle_title" : "Loadout",
+	"inventory_visibility_toggle_desc" : "",
+
+	"achievements_visibility_toggle_title" : "Achievements",
+	"achievements_visibility_toggle_desc" : "",
+
+	"wolfhud_create_empty_lobby_btn_visibility_toggle_title" : "Empty Lobby",
+	"wolfhud_create_empty_lobby_btn_visibility_toggle_desc" : "",
+
+	"steam_inventory_visibility_toggle_title" : "Skins",
+	"steam_inventory_visibility_toggle_desc" : "",
+
+	"fbi_files_visibility_toggle_title" : "FBI",
+	"fbi_files_visibility_toggle_desc" : "",
+
+	"gamehub_visibility_toggle_title" : "Community",
+	"gamehub_visibility_toggle_desc" : "",
+
+	"movie_theater_visibility_toggle_title" : "Movies",
+	"movie_theater_visibility_toggle_desc" : "",
+
+	"divider_test2_visibility_toggle_title" : "Divider 1",
+	"divider_test2_visibility_toggle_desc" : "Space between buttons",
+
+	"options_visibility_toggle_title" : "options",
+	"options_visibility_toggle_desc" : "",
+
+	"divider_infamy_visibility_toggle_title" : "Divider 2",
+	"divider_infamy_visibility_toggle_desc" : "Space between buttons",
+
+	"quit_visibility_toggle_title" : "Exit",
+	"quit_visibility_toggle_desc" : "",
+
+	"Main_Menu_Elements_Manager_loc_name_title" : "Text",
+	"Main_Menu_Elements_Manager_loc_name_desc" : "(Not works for dividers for obvious reasons)",
+
+	"Main_Menu_Elements_Manager_pos_value_title" : "Position",
+	"Main_Menu_Elements_Manager_pos_value_desc" : "",
+
+	"Main_Menu_Elements_Manager_mod_reset_title" : "Reset To Vanilla",
+	"Main_Menu_Elements_Manager_mod_reset_desc" : "",
+
+	"Main_Menu_Elements_Manager_font_size_title" : "Font Size",
+	"Main_Menu_Elements_Manager_font_size_desc" : "(Not works for dividers for now at least)"
+
+}

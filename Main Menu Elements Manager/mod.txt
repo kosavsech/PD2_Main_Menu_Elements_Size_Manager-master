@@ -1,20 +1,21 @@
 {
 	"blt_version"  :  2,
-	"name"  :  "Main Menu Elements Size Manager",
+	"name"  :  "Main Menu Elements Manager",
 	"description"  :  "",
 	"author"  :  "KXSAVS3CH",
 	"color" : "171 39 79",
 	"contact"  :  "\n https://modworkshop.net/user/74917 \n https://steamcommunity.com/id/kosavsechindabuilding/",
-	"version" : "1.0",
+	"version" : "2.0",
+	"priority" : "10000",
 	"hooks" : [
-				{
+		{
 			"hook_id" : "lib/managers/menumanager",
 			"script_path" : "lua/menumanager.lua"
 		}
 	],
 	"updates" : [
 		{
-			"identifier" : "pd2_Main_Menu_Elements_Size_Manager",
+			"identifier" : "pd2_Main_Menu_Elements_Manager",
 			"host": {
 			"meta": "https://github.com/kosavsech/PD2_Main_Menu_Elements_Size_Manager-master/releases/download/refs%2Fheads%2Fmaster/meta.json"
 			}
